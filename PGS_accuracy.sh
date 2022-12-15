@@ -2,7 +2,7 @@
 #SBATCH --time=12:00:00
 #SBATCH --account=def-kmj477
 #SBATCH --mem=40G
-#SBATCH --array=2-100
+#SBATCH --array=1-100
 #SBATCH --mail-user=thorstem@myumanitoba.ca
 #SBATCH --mail-type=ALL
 
