@@ -1,6 +1,13 @@
 # Purple martin polygenic scores
 Scripts used to calculate polygenic scores and estimate polygenic score accuracy in spring migration timing for the purple martin. Preprint here: https://www.biorxiv.org/content/10.1101/2022.09.14.508039v1
 
+Published paper here:
+https://doi.org/10.1038/s41598-023-29470-7
+
+Also, the rest of the code used for the paper is in these repos:
+https://github.com/edegreef/PUMA-resequencing-data
+https://github.com/edegreef/PUMA-reference-genome
+
 The script revision_PRS.R was used on a series of .profile files from plink to calculate polygenic scores at different p-value thresholds, and assess R^2 among them. 
 
 The script PGS_revision_random_sampling.R took genotype and covariate files in bed format and randomly created 100 training and test datasets with a 85/15 split. It calculated new principal component scores for the covariate files based on the training data to simulate a smaller GWAS
