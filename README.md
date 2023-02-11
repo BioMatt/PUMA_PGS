@@ -2,9 +2,11 @@
 Scripts used to calculate polygenic scores and estimate polygenic score accuracy in spring migration timing for the purple martin. Preprint here: https://www.biorxiv.org/content/10.1101/2022.09.14.508039v1
 
 Published paper here:
+
 https://doi.org/10.1038/s41598-023-29470-7
 
 Also, the rest of the code used for the paper is in these repos:
+
 https://github.com/edegreef/PUMA-resequencing-data
 
 https://github.com/edegreef/PUMA-reference-genome
