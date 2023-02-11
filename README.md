@@ -6,6 +6,7 @@ https://doi.org/10.1038/s41598-023-29470-7
 
 Also, the rest of the code used for the paper is in these repos:
 https://github.com/edegreef/PUMA-resequencing-data
+
 https://github.com/edegreef/PUMA-reference-genome
 
 The script revision_PRS.R was used on a series of .profile files from plink to calculate polygenic scores at different p-value thresholds, and assess R^2 among them. 
